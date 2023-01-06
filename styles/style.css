@@ -154,7 +154,7 @@
     align-items: center;
 }
 .footer-content{
-    padding-right: 100px;
+    padding-left: 200px;
     
 }
 
@@ -176,6 +176,7 @@
 }
 .footer-subscribe{
     margin-top: -100px;
+    margin-right: 200px;
 }
 
 .footer-title-two {
