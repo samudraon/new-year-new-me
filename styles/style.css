@@ -146,6 +146,38 @@
     padding: 20px;
 }
 
+/* outside section styles */
+
+.outside-container {
+    background-image: url("../images/three-people-working-on-board-thinking-outside-the-box.jpg"), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding-left: 60px;
+    margin: 250px;
+    border-radius: 8px;
+}
+
+.outside-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+ul {
+    padding-left: 100px;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
 /* footer styles */
 
 .footer-container {
