@@ -155,7 +155,8 @@
     background-size: cover;
     height: 70vh;
     padding-left: 60px;
-    margin: 250px;
+    margin: 150px;
+    margin-bottom: 80px;
     border-radius: 8px;
 }
 
@@ -243,4 +244,8 @@ ul li {
     border-radius: 5px;
     margin: auto;
     border: none;
+}
+
+::placeholder{
+    color: white;
 }
