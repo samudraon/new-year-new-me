@@ -70,6 +70,14 @@
     margin-bottom: 15px;
 }
 
+.failure-point {
+    color: gray;
+}
+
+.fa-solid {
+    color: #6DE7B4;
+}
+
 /* Plan styles */
 
 .plan-content {
@@ -112,22 +120,18 @@
 /* gradient-styles */
 
 .gradient-content {
-    background-image: url("../images/watch.png");
-    width: 80%;
-    margin: auto;
-    padding: 50px;
+    background-image: linear-gradient(to right, rgba(0, 95, 172, 1), rgba(0, 95, 172, 0)), url("../images/watch.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    height: 35vh;
+    margin: 200px;
+    padding-left: 60px;
+    border-radius: 8px;
 }
 
 .gradient-banner {
-    background-image: url("../images/gradient3.png");
-    border-radius: 10px;
+    border-radius: 8px;
     height: 300px;
-    width: 1250px;
-    background-size: cover;
-    margin-top: -50px;
-    margin-left: -50px;
 }
 
 .gradient-title {
@@ -135,12 +139,11 @@
     font-weight: 700;
     font-size: 40px;
     padding-top: 30px;
-    padding-left: 40px;
     margin-bottom: 20px;
 }
 
 .button-two {
-    margin-left: 40px;
+    padding: 20px;
 }
 
 /* footer styles */
@@ -153,9 +156,10 @@
     color: white;
     align-items: center;
 }
-.footer-content{
+
+.footer-content {
     padding-left: 200px;
-    
+
 }
 
 .footer-title {
@@ -170,11 +174,13 @@
     font-size: 16px;
     margin-bottom: 20px;
 }
-.footer-icon{
+
+.footer-icon {
     margin: auto;
     padding: auto;
 }
-.footer-subscribe{
+
+.footer-subscribe {
     margin-top: -100px;
     margin-right: 200px;
 }
