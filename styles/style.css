@@ -209,8 +209,8 @@ ul li {
 }
 
 .footer-icon {
-    margin: auto;
-    padding: auto;
+    margin-left: -5px;
+    padding: 5px;
 }
 
 .footer-subscribe {
